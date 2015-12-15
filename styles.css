@@ -1,0 +1,286 @@
+
+
+*{
+	margin:0;
+	padding:0;
+
+}
+
+
+
+html{
+	/* This image will be displayed fullscreen */
+	background: url(images/bg.png) ;
+	
+	  /* Image is centered vertically and horizontally at all times */
+  background-position: center center;
+  
+  /* Image doesn't repeat */
+  background-repeat: no-repeat;
+  
+  /* Makes the image fixed in the viewport so that it doesn't move when 
+     the content height is greater than the image height */
+  background-attachment: fixed;
+  
+  /* This is what makes the background image rescale based on its container's size */
+  background-size: cover;
+  
+  /* Pick a solid background color that will be displayed while the background image is loading */
+  background-color: white;
+  
+  /* SHORTHAND CSS NOTATION
+   * background: url(background-photo.jpg) center center cover no-repeat fixed;
+   */
+	
+	/* Ensure the html element always takes up the full height of the browser window */
+	min-height:100%;
+	
+	/* The Magic */
+	background-size:cover;
+}
+
+.header {
+	margin-top: 55px;
+	margin-left: 400px;
+	position:relative;
+    text-align:center;
+    width:25%;
+    height:209px;
+
+}
+
+.header1 {
+	margin-top: 55px;
+	margin-left: 580px;
+	position:relative;
+    text-align:center;
+    width:25%;
+    height:209px;
+
+}
+
+.header2 {
+	margin-top: 65px;
+	margin-left: 580px;
+	position:relative;
+    text-align:center;
+    width:25%;
+    height:209px;
+}
+	
+.headerplanet {
+	margin-top: -180px;
+	margin-left: 610px;
+	position:relative;
+    text-align:center;
+    width:25%;
+    height:209px;
+}
+
+#cssmenu {
+  background: #333;
+  list-style: none;
+  margin: 100;
+  padding: 100;
+  width: 15em;
+  position:relative;
+  text-align:center;
+  float:left;
+  margin-top:-263px;
+
+}
+#cssmenu li {
+  font: 80% "Lucida Sans Unicode", "Bitstream Vera Sans", "Trebuchet Unicode MS", "Lucida Grande", Verdana, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+#cssmenu a {
+  background: #615D5D;
+  border-bottom: 1px solid #393939;
+  color: white;
+  display: block;
+  margin: 0;
+  padding: 9px 13px;
+  text-decoration: none;
+  font-weight: normal;
+}
+#cssmenu a:hover {
+  background: #2580a2 url("images/hover.gif") left center no-repeat;
+  color: #fff;
+  padding-bottom: 8px;
+}
+
+#cssmenu2 {
+  background: #333;
+  list-style: none;
+  margin: 100;
+  padding: 100;
+  width: 15em;
+  position:relative;
+  text-align:center;
+  float:left;
+  margin-top:-263px;
+
+}
+#cssmenu2 li {
+  font: 80% "Lucida Sans Unicode", "Bitstream Vera Sans", "Trebuchet Unicode MS", "Lucida Grande", Verdana, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+#cssmenu2 a {
+  background: #615D5D;
+  border-bottom: 1px solid #393939;
+  color: white;
+  display: block;
+  margin: 0;
+  padding: 9px 13px;
+  text-decoration: none;
+  font-weight: normal;
+}
+#cssmenu2 a:hover {
+  background: #2580a2 url("images/hover.gif") left center no-repeat;
+  color: #fff;
+  padding-bottom: 8px;
+}
+
+#login-form
+{
+ margin-top:70px;
+ margin-left: 220px;
+}
+table
+{
+
+ padding:60px;
+ margin-top: 60px;
+	margin-left: -250px;
+	position:relative;
+    text-align:center;
+    width:350px;
+    height:350px;
+	background:transparent url("images/planet.png") no-repeat 
+}
+}
+table tr,td
+{
+ padding:15px;
+ //border:solid #e1e1e1 1px;
+}
+table tr td input
+{
+ width:100%;
+ height:40px;
+ border:solid white 1px;
+ border-radius:3px;
+ padding-left:10px;
+ font-family:Verdana, Geneva, sans-serif;
+ font-size:16px;
+ background:white;
+ transition-duration:0.8s;
+ box-shadow: inset 0px 0px 1px rgba(0,0,0,0.4);
+}
+
+table tr td button
+{
+ width:70%;
+ height:45px;
+ border:0px;
+ background:rgba(12,45,78,11);
+ background:-moz-linear-gradient(top, #595959 , #515151);
+ border-radius:3px;
+ box-shadow: 1px 1px 1px rgba(1,0,0,0.2);
+ color:#f9f9f9;
+ font-family:Verdana, Geneva, sans-serif;
+ font-size:18px;
+ font-weight:bolder;
+ text-transform:uppercase;
+}
+table tr td button:active
+{
+ position:relative;
+ top:1px;
+}
+table tr td a
+{
+ text-decoration:none;
+ color:white;
+ font-family:Verdana, Geneva, sans-serif;
+ font-size:18px;
+}
+
+/* css for home page  */
+
+*
+{
+ margin:0;
+ padding:0;
+}
+#header
+{
+ width:100%;
+ height:58px;
+ background:rgba(00,11,22,33);
+ color:#9fa8b0;
+ font-family:Verdana, Geneva, sans-serif;
+}
+#header #left
+{
+ float:left;
+ position:relative;
+}
+#header #left label
+{
+ position:relative;
+ top:5px;
+ left:20px;
+ font-size:55px;
+}
+#header #right
+{
+ float:right;
+ position:relative;
+ 
+}
+#header #right #content
+{
+ position:relative;
+ top:18px;
+ right:50px;
+ color:#fff;
+ font-size:15px;
+}
+#header #right #content a
+{
+ color:#00a2d1;
+ font-size:20px;
+}
+
+.hoverinfo {
+  position: left;
+  float:right;
+  top: 25px;
+  left: 25px;
+  font-size: 28px;
+  color: #ffffff;
+  cursor: pointer;
+}
+.hoverinfo p {
+  display: none;
+  color: #000000;
+}
+.hoverinfo:hover p {
+  background-color: rgba(255, 255, 255, 0.7);
+  display: block;
+}
+
+.mystyle {
+color:red; 
+font-size: 200%;
+
+
+}
+
+
+
